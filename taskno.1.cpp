@@ -11,17 +11,17 @@ void askQuestions(const std::string &question, const std::vector<std::string> &c
 int main() {
     int score = 0;
 
-    std::string q1 = "What is the capital of France?";
-    std::vector<std::string> choices1 = {"1. Berlin", "2. Madrid", "3. Paris", "4. Rome"};
-    std::vector<int> answer1 = {3};
+    std::string q1 = "national bird of india?";
+    std::vector<std::string> choices1 = {"1. crow", "2. peacock", "3. eagle", "4. parrot"};
+    std::vector<int> answer1 = {2};
 
     std::string q2 = "Select all the even numbers:";
     std::vector<std::string> choices2 = {"1. 1", "2. 2", "3. 3", "4. 4"};
     std::vector<int> answer2 = {2, 4};
 
-    std::string q3 = "Who wrote 'To Kill a Mockingbird'?";
-    std::vector<std::string> choices3 = {"1. Harper Lee", "2. J.K. Rowling", "3. Mark Twain", "4. Jane Austen"};
-    std::vector<int> answer3 = {1};
+    std::string q3 = "Which country won the t20 world cup 2024?";
+    std::vector<std::string> choices3 = {"1. afganistan", "2. australia", "3. India", "4. south africa"};
+    std::vector<int> answer3 = {3};
 
     askQuestions(q1, choices1, answer1, score);
     askQuestions(q2, choices2, answer2, score);
